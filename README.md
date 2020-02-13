@@ -1,6 +1,7 @@
 # golos-donates
  Top donators and donated posts for Golos blockchain
 Сервис, выводящий топ пользователей, донатящих авторов и топ постов, получающих донаты.
+Комментарии в коде есть.
 
 ## Требования для установки
 1. node.js
