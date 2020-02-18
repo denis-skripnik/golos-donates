@@ -57,10 +57,6 @@ if (isJson.approve === true) {
     if (arr.donate) {
 let donate = arr.donate.post;
 let url;
-    let comment = donate.split('#')[1];
-    console.log('Комментарий: ' + JSON.stringify(comment));
-    let filtered_memo = comment.split('@')[1];
-url = filtered_memo.split('/');
 if (donate.indexOf('#') > -1) {
     let comment = donate.split('#')[1];
     let filtered_memo = comment.split('@')[1];
